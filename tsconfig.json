@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "target": "es2018",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ]
+}
